@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+              
+             <title>Document</title>
+             
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+<body>
+       
+        <ul class=" size">
+             <li><a href="index.html">home</a></li>
+             <li><a href="contact.html">contact</a></li>
+             <li><a href="cours.html">courses</a></li>
+            
+        </ul> <center>
+                    <h1 style="text-align: center">courses</h1>
+
+
+<div id="aligner" <center>
+    <div class="divs">
+   <div class="rel b1"> 
+    <img src="res\obj1.png">                  
+    <a href="#ex1" rel="modal:open"><button id="l1">view more</button> </a> 
+ </div>
+   <div class="rel"> <img src="res\obj2.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+   <div class="rel"> <img src="res\obj3.png"><a href="#ex1" rel="modal:open"></a> <button>view more</button></a></div>
+    </div>
+           <br>
+           <br> 
+
+    <div class="divs">
+            <div class="rel"> <img src="res\obj4.png" ><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+            <div class="rel"> <img src="res\obj5.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+            <div class="rel"> <img src="res\obj6.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+   </div>
+           <br>
+           <br>
+    
+<div class="divs">
+        <div class="rel"> <img src="res\obj7.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+        <div class="rel"> <img src="res\obj8.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+        <div class="rel"> <img src="res\obj9.png"> <a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+</div>
+</center>
+</div>
+
+</div>
+
+    <h3 style="text-align: center">feedback</h3>
+<div style="text-align: center"> 
+    <input onclick="changestyle()" type="submit" value="B">
+    <input onclick="changestyle2()" type="submit" value="I">
+    <input onclick="changestyle3()" type="submit" value="underline">
+   
+    <select id="sizef" onchange="changestyle4()" >
+        <option>10px</option>
+        <option>20px</option>
+        <option>30px</option>
+        <option>50px</option>
+        </select>
+    <select id="sizea" onchange="changestyle5()">
+                <option> Arial</option>
+                <option>Times New Roman</option>
+                <option>Verdana</option>
+                <option>Geneva</option>
+                </select>
+
+        <form>
+             <br>
+              <textarea id="x" col="50"row="20"> </textarea>
+        </form>
+
+
+</div>
+<div id="ex1" class="modal">
+        <p>This is GoMyCode Track. 
+                Each track has its own goal. 
+                By adopting this track, you chose your own goal..</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+      
+</body>
+<script src="js/main.js"></script> 
+</html>

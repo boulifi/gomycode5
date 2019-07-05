@@ -1,0 +1,68 @@
+body{
+    background:     Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+h1 {color:brown;
+font-size: 50px;}
+
+label{color: wheat;
+font-size: 30px;}
+
+li{
+    display: inline;margin-right: 150px
+}
+ul{
+    padding-left: 400px
+}
+.image{
+    display: block;
+}
+.center{
+    text-align: center
+}
+.size{font-size: 40px;}
+
+textarea{width:250px;
+height:100px;}
+
+h3 {color:brown;
+    font-size: 40px;}
+
+h1{background-image: url("../res/Web-Trends-2016-.jpg");
+padding: 20%
+}
+.submit:hover{
+    color: rgb(126, 14, 14);
+    background-color: aquamarine;
+}
+
+
+#aligner{margin-left: 50px;
+margin-right: 50px; }
+
+#colorr a{color:white;
+font-size: 30px;}
+h2{color:white;
+font-size: 40px;
+border-style: solid;}
+
+.divs{
+    display:flex;
+    justify-content:center;
+}
+.rel button{
+    position: absolute;
+    top: 45%;
+    right:37%;
+}
+.rel{
+    position: relative;
+}
+
+    .divs .rel img{
+        margin: 5px;
+    
+    }
