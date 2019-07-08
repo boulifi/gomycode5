@@ -9,7 +9,7 @@ h1 {color:brown;
 font-size: 50px;}
 
 label{color: wheat;
-font-size: 30px;}
+font-size: 20px;}
 
 li{
     display: inline;margin-right: 150px
@@ -41,7 +41,8 @@ padding: 20%
 
 
 #aligner{margin-left: 50px;
-margin-right: 50px; }
+margin-right: 50px;
+ }
 
 #colorr a{color:white;
 font-size: 30px;}
@@ -57,6 +58,7 @@ border-style: solid;}
     position: absolute;
     top: 45%;
     right:37%;
+    display: block;
 }
 .rel{
     position: relative;
@@ -66,3 +68,7 @@ border-style: solid;}
         margin: 5px;
     
     }
+.container-fluid{
+    margin:0px;
+    padding:0px;
+}

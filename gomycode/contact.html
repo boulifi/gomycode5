@@ -1,6 +1,9 @@
 <!DOCTYPE html>
     <html lang="en">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
                   <head>
 
     <meta charset="UTF-8"> 
@@ -15,21 +18,43 @@
 
                     <body>
                                  
-  <ul class="size">
-            <li><a href="index.html">home</a></li>
-            <li><a href="contact.html">contact</a></li>
-            <li><a href="cours.html">courses</a></li>
-        </ul>
+                            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                                    <!-- Brand/logo -->
+                                    <a class="navbar-brand" href="#">
+                                            <img src="res\logo.jpg" alt="logo" style="width:40px;">
+    
+                                    </a>
+                                      <!-- Links -->
+                              <ul class="navbar-nav">
+                              <li class="nav-item">
+    
+                            <a class="nav-link" href="index.html">home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="cours.html">courses</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                          </li>
+                        </ul>
+                      </nav>
+                      <br>
    
-       <center>
+     <center>
     <h1 style="text-align: center">contact</h1>
 <form>     
 
-    <div style="text-align: center"></div>          
+    <div style="text-align: center"></div>  
+    <div class="row">    
+        <div class="col-md-2 offset-md-5">  
+    <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" placeholder="your name" id="usr">
+          </div>
+<!-- 
+    <label style="text-align: center">name</label><br> <input type="text" placeholder="your name "><br> -->
 
-    <label style="text-align: center">name</label><br> <input type="text" placeholder="your name "><br>
-
-    <label> track</label><br>
+    <!-- <label> track</label><br>
 
     <select style="text-align: center">
 
@@ -38,18 +63,41 @@
         <option>games</option>
         </select> </form>
 
-</select>
+</select> -->
+<div class="form-group">
+        <label for="sel1">track:</label>
+        <select class="form-control" id="sel1">
+          <option>web</option>
+          <option>all</option>
+          <option>games</option>
+        </select>
+      </div>
 
-<label style="text-align: center">email adress</label><br><input type="text" placeholder="name@exemmple.com"><br>
+<!-- <div class="form-group">
+        <label style="text-align: center">email adress</label>
+        <br
+        ><input type="text" placeholder="name@exemmple.com"><br> 
+      </div> -->
+      <form action="/action_page.php">
+        <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="name@exemple.com" name="email">
+              </div>
 
-<label style="text-align: center">phone number</label><br><input type="text" placeholder="your phone number"><br>
-    
-<input  class="submit center" type="submit" value="submit form" >
-    
-</center>
+<!-- <label style="text-align: center">phone number</label><br><input type="text" placeholder="your phone number"><br> -->
+<div class="form-group">
+        <label for="usr">phone number:</label>
+        <input type="text" class="form-control" placeholder="your phone number" id="usr">
+      </div>
+<!-- <input  class="submit center" type="submit" value="submit form" > -->
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>  
+</div> 
+<br>
+<br>
+<br>    
+</center> 
 
-
-
-         </div>
+     </div>
      </form>
                     </body>

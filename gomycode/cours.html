@@ -13,42 +13,59 @@
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
        
-        <ul class=" size">
-             <li><a href="index.html">home</a></li>
-             <li><a href="contact.html">contact</a></li>
-             <li><a href="cours.html">courses</a></li>
-            
-        </ul> <center>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                                <!-- Brand/logo -->
+                                <a class="navbar-brand" href="#">
+                                        <img src="res\logo.jpg" alt="logo" style="width:40px;">
+
+                                </a>
+                                  <!-- Links -->
+                          <ul class="navbar-nav">
+                          <li class="nav-item">
+
+                        <a class="nav-link" href="index.html">home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="cours.html">courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <br>
                     <h1 style="text-align: center">courses</h1>
 
-
-<div id="aligner" <center>
-    <div class="divs">
-   <div class="rel b1"> 
-    <img src="res\obj1.png">                  
-    <a href="#ex1" rel="modal:open"><button id="l1">view more</button> </a> 
- </div>
-   <div class="rel"> <img src="res\obj2.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
-   <div class="rel"> <img src="res\obj3.png"><a href="#ex1" rel="modal:open"></a> <button>view more</button></a></div>
+<br>
+<br>
+<div id="aligner" >
+    <div class="divs row">
+   <div class="rel col-md-3"><img  src="res\obj1.png"><a href="#ex1" rel="modal:open"><button id="l1">view more</button> </a></div>
+   <div class="rel col-md-3"> <img src="res\obj2.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+   <div class="rel col-md-3"> <img src="res\obj3.png"><a href="#ex1" rel="modal:open"></a> <button>view more</button></a></div>
     </div>
-           <br>
+          
            <br> 
 
-    <div class="divs">
-            <div class="rel"> <img src="res\obj4.png" ><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
-            <div class="rel"> <img src="res\obj5.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
-            <div class="rel"> <img src="res\obj6.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+    <div class="divs row">
+            <div class="rel col-md-3"> <img src="res\obj4.png" ><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+            <div class="rel col-md-3"> <img src="res\obj5.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+            <div class="rel col-md-3"> <img src="res\obj6.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
    </div>
-           <br>
+          
            <br>
     
-<div class="divs">
-        <div class="rel"> <img src="res\obj7.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
-        <div class="rel"> <img src="res\obj8.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
-        <div class="rel"> <img src="res\obj9.png"> <a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+<div class="divs row">
+        <div class="rel col-md-3"> <img src="res\obj7.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+        <div class="rel col-md-3"> <img src="res\obj8.png"><a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
+        <div class="rel col-md-3"> <img src="res\obj9.png"> <a href="#ex1" rel="modal:open"> <button>view more</button></a></div>
 </div>
 </center>
 </div>
@@ -73,8 +90,7 @@
                 <option>Verdana</option>
                 <option>Geneva</option>
                 </select>
-
-        <form>
+<form>
              <br>
               <textarea id="x" col="50"row="20"> </textarea>
         </form>
